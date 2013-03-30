@@ -35,13 +35,13 @@ public class LearningCalendar {
         System.out.println("MILLISECOND is " + calendar.get(Calendar.MILLISECOND));
 
         // the current date add 5 hour
-        calendar.add(Calendar.HOUR,5);
+        calendar.add(Calendar.HOUR, 5);
         // the current date add 5 day
-        calendar.add(Calendar.DATE,5);
+        calendar.add(Calendar.DATE, 5);
         // the current date add 5 month
-        calendar.add(Calendar.MONTH,5);
+        calendar.add(Calendar.MONTH, 5);
         // the current date add 5 year
-        calendar.add(Calendar.YEAR,5);
+        calendar.add(Calendar.YEAR, 5);
 
 
         // create two calendar at the different dates
@@ -57,10 +57,10 @@ public class LearningCalendar {
         System.out.println(Locale.TAIWAN);
         System.out.println(Locale.getDefault());
 
-        Locale[] locales = new  Locale[10];
+        Locale[] locales = new Locale[10];
         locales = Locale.getAvailableLocales();
 
-        for (Locale locale:locales){
+        for (Locale locale : locales) {
             System.out.println(locale.getCountry());
             System.out.println(locale.getDisplayLanguage());
             System.out.println(locale.getLanguage());
@@ -73,5 +73,9 @@ public class LearningCalendar {
         System.out.println(Calendar.getInstance(Locale.CHINESE).getTime());
 
 
+        System.out.println(cal1.getFirstDayOfWeek());
+
+        cal1.setFirstDayOfWeek(Calendar.SATURDAY);
+        System.out.println(cal1.get(Calendar.DAY_OF_WEEK));
     }
 }
