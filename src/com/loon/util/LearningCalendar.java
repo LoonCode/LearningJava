@@ -1,6 +1,8 @@
 package com.loon.util;
 
 import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.util.Locale;
 
 /**
  * Created with IntelliJ IDEA.
@@ -41,9 +43,34 @@ public class LearningCalendar {
         // the current date add 5 year
         calendar.add(Calendar.YEAR,5);
 
-        System.out.println(String.valueOf(calendar.getTime()));
-        calendar.after(1);
-        System.out.println(String.valueOf(calendar.getTime()));
+
+        // create two calendar at the different dates
+        Calendar cal1 = new GregorianCalendar(2015, 8, 15);
+        Calendar cal2 = new GregorianCalendar(2008, 1, 02);
+
+        System.out.println(cal1.after(cal2));
+        System.out.println(cal1.before(cal2));
+        System.out.println(cal1.compareTo(cal2));
+        // get
+        System.out.println(cal1.getActualMaximum(Calendar.WEDNESDAY));
+
+        System.out.println(Locale.TAIWAN);
+        System.out.println(Locale.getDefault());
+
+        Locale[] locales = new  Locale[10];
+        locales = Locale.getAvailableLocales();
+
+        for (Locale locale:locales){
+            System.out.println(locale.getCountry());
+            System.out.println(locale.getDisplayLanguage());
+            System.out.println(locale.getLanguage());
+            System.out.println(locale.getVariant());
+            System.out.println(locale.getISO3Country());
+        }
+
+        System.out.println(Calendar.getInstance(Locale.GERMAN).getTime());
+        System.out.println(Calendar.getInstance(Locale.CHINA).getTime());
+        System.out.println(Calendar.getInstance(Locale.CHINESE).getTime());
 
 
     }
