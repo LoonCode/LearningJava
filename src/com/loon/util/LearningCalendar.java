@@ -42,6 +42,8 @@ public class LearningCalendar {
         calendar.add(Calendar.YEAR,5);
 
         System.out.println(String.valueOf(calendar.getTime()));
+        calendar.after(1);
+        System.out.println(String.valueOf(calendar.getTime()));
 
 
     }
