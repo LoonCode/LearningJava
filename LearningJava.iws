@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b936fd89-0e7e-4e97-81e9-52167b31c23e" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Users\Loong\IdeaProjects\LearningJava\src\com\loon\util\Calendar.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/loon/util/LearningCalendar.java" afterPath="$PROJECT_DIR$/src/com/loon/util/LearningCalendar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningJava.ipr" afterPath="$PROJECT_DIR$/LearningJava.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningJava.iws" afterPath="$PROJECT_DIR$/LearningJava.iws" />
-    </list>
+    <list default="true" id="b936fd89-0e7e-4e97-81e9-52167b31c23e" name="Default" comment="" />
     <ignored path="LearningJava.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Calendar.java" changelist="b936fd89-0e7e-4e97-81e9-52167b31c23e" time="1364631529014" ignored="false" />
-    <file path="/LearningCalendar.java" changelist="b936fd89-0e7e-4e97-81e9-52167b31c23e" time="1364631152725" ignored="false" />
-    <file path="/Dummy.txt" changelist="b936fd89-0e7e-4e97-81e9-52167b31c23e" time="1364631448876" ignored="false" />
+    <file path="/Calendar.java" changelist="b936fd89-0e7e-4e97-81e9-52167b31c23e" time="1364633477393" ignored="false" />
+    <file path="/LearningCalendar.java" changelist="b936fd89-0e7e-4e97-81e9-52167b31c23e" time="1364633325358" ignored="false" />
+    <file path="/Dummy.txt" changelist="b936fd89-0e7e-4e97-81e9-52167b31c23e" time="1364633712384" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +68,10 @@
       <file leaf-file-name="LearningCalendar.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/loon/util/LearningCalendar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="8" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.6195652">
-              <folding />
+            <state line="72" column="38" selection-start="2499" selection-end="2499" vertical-scroll-proportion="0.63858694">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -205,22 +202,6 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.LearningCalendar">
-    <configuration default="false" name="LearningCalendar" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.loon.util.LearningCalendar" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearningJava" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -309,14 +290,25 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="false" name="LearningCalendar" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.loon.util.LearningCalendar" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearningJava" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.LearningCalendar" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.LearningCalendar" />
-      </list>
-    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -357,11 +349,15 @@
       <created>1364631453272</created>
       <updated>1364631453272</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Learning Calendar">
+      <created>1364633719671</created>
+      <updated>1364633719671</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -461,10 +457,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_43/src.zip!/java/util/Locale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="270" column="11" selection-start="10471" selection-end="10471" vertical-scroll-proportion="0.33152175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/loon/util/LearningCalendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="8" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.6195652">
-          <folding />
+        <state line="72" column="38" selection-start="2499" selection-end="2499" vertical-scroll-proportion="0.63858694">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
