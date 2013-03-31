@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b936fd89-0e7e-4e97-81e9-52167b31c23e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/loon/io/CurrentDirectory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/loon/io/FileDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/systemConfig.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/loon/reflection/Animal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/loon/reflection/Dog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/loon/io/InputDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/loon/enumDemo/OrderState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/loon/enumDemo/Week.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/loon/enumDemo/enumDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningJava.iws" afterPath="$PROJECT_DIR$/LearningJava.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/loon/util/PropDemo.java" afterPath="$PROJECT_DIR$/src/com/loon/util/PropDemo.java" />
     </list>
     <ignored path="LearningJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,6 +21,13 @@
     <file path="/FileDemo.java" changelist="b936fd89-0e7e-4e97-81e9-52167b31c23e" time="1364709672420" ignored="false" />
     <file path="/systemConfig.properties" changelist="b936fd89-0e7e-4e97-81e9-52167b31c23e" time="1364710287739" ignored="false" />
     <file path="/CurrentDirectory.java" changelist="b936fd89-0e7e-4e97-81e9-52167b31c23e" time="1364711609414" ignored="false" />
+    <file path="/InputDemo.java" changelist="b936fd89-0e7e-4e97-81e9-52167b31c23e" time="1364713082532" ignored="false" />
+    <file path="/fragment.java" changelist="b936fd89-0e7e-4e97-81e9-52167b31c23e" time="1364717087862" ignored="false" />
+    <file path="/enumDemo.java" changelist="b936fd89-0e7e-4e97-81e9-52167b31c23e" time="1364714357213" ignored="false" />
+    <file path="/OrderState.java" changelist="b936fd89-0e7e-4e97-81e9-52167b31c23e" time="1364714516980" ignored="false" />
+    <file path="/ReflectionDemo.java" changelist="b936fd89-0e7e-4e97-81e9-52167b31c23e" time="1364719275877" ignored="false" />
+    <file path="/Animal.java" changelist="b936fd89-0e7e-4e97-81e9-52167b31c23e" time="1364714850238" ignored="false" />
+    <file path="/Dog.java" changelist="b936fd89-0e7e-4e97-81e9-52167b31c23e" time="1364715001524" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,39 +86,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LearningCalendar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/loon/util/LearningCalendar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="0" selection-start="2544" selection-end="2544" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormatterDemo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/loon/util/FormatterDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="26" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropDemo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/loon/util/PropDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="2" selection-start="670" selection-end="1075" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrentDirectory.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CurrentDirectory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/loon/io/CurrentDirectory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="60" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.28818443">
+            <state line="36" column="5" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,7 +100,7 @@
       <file leaf-file-name="FileDemo.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/loon/io/FileDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="40" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,10 +108,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="systemConfig.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/systemConfig.properties">
+      <file leaf-file-name="InputDemo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/loon/io/InputDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
+            <state line="12" column="3" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enumDemo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/loon/enumDemo/enumDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="49" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderState.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/loon/enumDemo/OrderState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="22" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectionDemo.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/loon/reflection/ReflectionDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="58" selection-start="1582" selection-end="1582" vertical-scroll-proportion="2.334471">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animal.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/loon/reflection/Animal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="25" selection-start="453" selection-end="462" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dog.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/loon/reflection/Dog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="22" selection-start="326" selection-end="333" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -140,7 +169,16 @@
       <file leaf-file-name="person.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/loon/util/person.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="12" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+            <state line="2" column="7" selection-start="18" selection-end="24" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Week.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/loon/enumDemo/Week.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -172,6 +210,14 @@
         <option value="$PROJECT_DIR$/src/config/systemConfig.properties" />
         <option value="$PROJECT_DIR$/src/com/loon/util/PropDemo.java" />
         <option value="$PROJECT_DIR$/src/com/loon/io/CurrentDirectory.java" />
+        <option value="$PROJECT_DIR$/src/com/loon/io/InputDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/loon/enumDemo/Week.java" />
+        <option value="$PROJECT_DIR$/src/com/loon/enumDemo/enumDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/loon/enumDemo/OrderState.java" />
+        <option value="$PROJECT_DIR$/src/com/loon/Reflection/Animal.java" />
+        <option value="$PROJECT_DIR$/src/com/loon/Reflection/Dog.java" />
+        <option value="$PROJECT_DIR$/src/com/loon/Reflection/ReflectionDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/loon/reflection/ReflectionDemo.java" />
       </list>
     </option>
   </component>
@@ -287,6 +333,28 @@
               <option name="myItemId" value="loon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reflection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -310,6 +378,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enumDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -319,7 +409,7 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$USER_HOME$/.gitconfig" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -335,9 +425,9 @@
       <recent name="D:\Users\Loong\IdeaProjects\LearningJava\src\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CurrentDirectory">
-    <configuration default="false" name="FormatterDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.loon.util.FormatterDemo" />
+  <component name="RunManager" selected="Application.ReflectionDemo">
+    <configuration default="false" name="CurrentDirectory" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.loon.io.CurrentDirectory" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -352,8 +442,56 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PropDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.loon.util.PropDemo" />
+    <configuration default="false" name="InputDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.loon.io.InputDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearningJava" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="enumDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.loon.enumDemo.enumDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearningJava" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="OrderState" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.loon.enumDemo.OrderState" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearningJava" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReflectionDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.loon.reflection.ReflectionDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -371,38 +509,6 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FileDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.loon.io.FileDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearningJava" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CurrentDirectory" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.loon.io.CurrentDirectory" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearningJava" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -510,19 +616,21 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.LearningCalendar" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FormatterDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PropDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FileDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CurrentDirectory" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CurrentDirectory" />
+      <item index="2" class="java.lang.String" itemvalue="Application.InputDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.enumDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.OrderState" />
+      <item index="5" class="java.lang.String" itemvalue="Application.ReflectionDemo" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.CurrentDirectory" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PropDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FileDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FormatterDemo" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.ReflectionDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.OrderState" />
+        <item index="2" class="java.lang.String" itemvalue="Application.enumDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.InputDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CurrentDirectory" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -589,17 +697,17 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39863715" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6712095" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6013629" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
@@ -667,48 +775,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/loon/util/LearningCalendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="2544" selection-end="2544" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/loon/util/FormatterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="26" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/loon/util/PropDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="105" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/loon/util/person.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.6.0_43/src.zip!/java/util/Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1969" column="7" selection-start="74389" selection-end="74389" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="66" selection-start="81" selection-end="81" vertical-scroll-proportion="0.20320855" />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.6.0_43/src.zip!/java/util/Calendar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1969" column="7" selection-start="74389" selection-end="74389" vertical-scroll-proportion="0.0">
@@ -735,26 +801,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/loon/util/person.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config/systemConfig.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/loon/io/FileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="40" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,7 +819,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/loon/io/CurrentDirectory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="60" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.28818443">
+        <state line="36" column="5" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/loon/io/FileDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/loon/io/InputDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="3" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/loon/enumDemo/Week.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/loon/enumDemo/enumDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="49" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/loon/enumDemo/OrderState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="22" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/loon/util/person.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="18" selection-end="24" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/loon/reflection/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="22" selection-start="326" selection-end="333" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/loon/reflection/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="25" selection-start="453" selection-end="462" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/loon/reflection/ReflectionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="58" selection-start="1582" selection-end="1582" vertical-scroll-proportion="2.334471">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
