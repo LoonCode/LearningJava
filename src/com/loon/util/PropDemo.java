@@ -1,9 +1,7 @@
 package com.loon.util;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
+import java.util.Arrays;
 import java.util.Properties;
 
 /**
@@ -15,7 +13,11 @@ import java.util.Properties;
  */
 public class PropDemo {
     public static void main(String[] args) throws IOException {
-        InputStream inputStream = new FileInputStream("person.properties");
+
+//        InputStream inputStream = new FileInputStream(ClassLoader.getSystemResource("")+"\\com\\loon\\util\\person.properties");
+//        InputStream inputStream = new FileInputStream(PropDemo.class.getResource("")+"person.properties");
+        InputStream inputStream = PropDemo.class.getResourceAsStream("person.properties");
+//        InputStream inputStream = new FileInputStream("person.properties");
         Properties properties = new Properties();
         properties.load(inputStream);
         String name = properties.getProperty("name");
