@@ -17,11 +17,12 @@ public class MainThread {
 //        LiftOff lifrOff = new LiftOff();
 //        lifrOff.run();
 
-         // 1.5新特性，启动线程
+
+        // 1.5新特性，启动线程
         //  newCachedThreadPool        newSingleThreadExecutor      newScheduledThreadPool        newFixedThreadPool
         ExecutorService executorService = Executors.newCachedThreadPool();
 
-        for (int i=0 ;i<5 ;i++)
+        for (int i = 0; i < 5; i++)
             executorService.submit(new LiftOff());
         executorService.shutdown();
     }
